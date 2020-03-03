@@ -10,4 +10,6 @@ php artisan key:generate
 touch database/database.sqlite
 php artisan migrate:fresh
 
+php artisan cache:clear
+
 php artisan up
